@@ -1,0 +1,118 @@
+.ticket-management-container {
+  max-width: 1600px; /* Increased width */
+  margin: 0 auto;
+  padding: 30px;
+  /* background: #f9f9f9; */
+  border-radius: 10px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.ticket-management-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.ticket-management-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.ticket-container {
+  flex: 1;
+  min-width: 30%;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ticket-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0056b3;
+}
+
+.ticket-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ticket-container form input,
+.ticket-container form select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.ticket-container form button {
+  padding: 10px 15px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-container form button:hover {
+  background-color: #004494;
+}
+
+.ticket-list {
+  margin-bottom: 20px;
+}
+
+.ticket-item {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.ticket-item h4 {
+  margin: 0 0 10px;
+}
+
+.ticket-item p {
+  margin: 5px 0;
+}
+
+.ticket-item .ticket-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 1000px) {
+  .ticket-management-grid {
+    flex-direction: column;
+  }
+
+  .ticket-container {
+    margin-bottom: 20px;
+  }
+}
+.ticket-actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.ticket-actions button {
+  padding: 8px 15px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-actions button:hover {
+  background-color: #004494;
+}

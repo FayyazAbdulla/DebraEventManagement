@@ -1,0 +1,66 @@
+/* AdminLogin.css */
+
+:root {
+    --primary-color: #23a6d5;
+    --secondary-color: #23d5ab;
+    --accent-color: #e73c7e;
+    --background-color: #f7f7f7;
+    --text-color: #333;
+    --card-bg-color: #fff;
+    --card-shadow: rgba(0, 0, 0, 0.1);
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+    /* background-color: var(--background-color); */
+  }
+  
+  .admin-login-form {
+    background-color:#000000;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px var(--card-shadow);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .admin-login-form h2 {
+    color: var(--primary-color);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .admin-login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .admin-login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-login-form button:hover {
+    background-color: var(--accent-color);
+  }
+  

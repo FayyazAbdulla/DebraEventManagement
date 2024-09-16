@@ -1,0 +1,29 @@
+/* css/Navigation.css */
+
+.navigation {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navigation ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation li {
+    margin: 0;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+  }
+  
